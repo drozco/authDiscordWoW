@@ -1,0 +1,45 @@
+INSTALLATION DU PROJET AUTHDISCORD !
+
+DÉPENDANCES : https://nodejs.org/en/
+
+ÉTAPE N°1 - L'ARCHIVE -
+    Décompressez l'archive authDiscord.rar dans un dossier
+    Téléchargez la dépendance node.js qui permet de faire tourner un serveur node
+    Inviter votre bot sur votre serveur
+
+ÉTAPE N°2 - L'API -
+    Ouvrez le dossier "Api"
+    Ouvrez un terminal à la racine du dossier "Api"
+    Inscrivez la commande "npm i" ou "npm install"
+    Configurer le fichier : Api/config/default.json
+        Saisir seulement vos informations MySQL (Hôte, Utilisateur, Mot de passe, Database, Port)
+        Ne pas toucher au Port par défaut 9100
+    
+ÉTAPE N°2 - LE BOT -
+    Ouvrez le dossier "Bot"
+    Ouvrez un terminal à la racine du dossier "Bot"
+    Inscrivez la commande "npm i" ou "npm install"
+    Configurer le fichier : Bot/config.json
+        Saisir seulement vos informations discord (Token de votre bot et ClientId de votre bot)
+        Ne pas toucher au lien de l'Api si vous êtes en local, sinon laissez quand même le port 9100
+
+ÉTAPE N°3 - LE DÉCOLLAGE -
+    Ouvrez le dossier "Bot"
+        Ouvrez un terminal à la racine du dossier "Bot"
+        Inscrivez la commande "npm deploy"
+        Une fois fini, inscrivez la commande "npm start" et ne fermez pas le terminal.
+
+    Dans une nouvelle fenêtre ouvrez le dossier "Api"
+        Ouvrez un terminal à la racine du dossier "Api"
+        Inscrivez la commande "npm start" et ne fermez pas le terminal
+
+ÉTAPE N°4 - LA COMMANDE -
+    Rendez-vous sur votre serveur discord
+    Inscrivez la slash commande "/account username:VOTREUSER email:VOTREEMAIL password:VOTREMOTDEPASSE
+    Et voilà votre compte est créer depuis discord :D 
+
+ÉTAPE N°5 - PLUS -
+    Pour de l'aide, n'hésitez SURTOUT PAS à contacter : Aspect.js#5034 sur discord !
+    Lâchez une petite étoile sur le projet GitHub, ça ferait extrêmement plaisir :D
+
+MERCI A VOUS !
